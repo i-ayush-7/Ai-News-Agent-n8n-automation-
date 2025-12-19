@@ -63,8 +63,8 @@ You are an Executive Tech Analyst. I will provide a list of article titles and d
 
 ### URL:
 
-```url
-https://api.telegram.org/bot%3CYOUR_BOT_TOKEN%3E/sendMessage?chat_id=%3CUSER_CHAT_ID%3E&text=Hi
+```text
+https://api.telegram.org/bot<YOUR_BOT_TOKEN>/sendMessage?chat_id=<USER_CHAT_ID>&text=Hi
 ```
 #### 1. Clone or Download
 Clone this repository to access the workflow JSON file.
