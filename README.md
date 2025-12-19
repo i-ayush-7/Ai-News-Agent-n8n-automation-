@@ -62,4 +62,4 @@ You are an Executive Tech Analyst. I will provide a list of article titles and d
 https://api.telegram.org/bot<YOUR_BOT_TOKEN>/sendMessage?chat_id=<USER_CHAT_ID>&text=Please Subscribe
 ```
 
-** Project By: Ayush Shukla ** 
+**Project By: Ayush Shukla** 
