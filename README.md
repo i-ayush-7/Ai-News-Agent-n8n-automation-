@@ -2,11 +2,6 @@
 
 > **Automated daily AI news briefings delivered straight to Telegram.**
 
-[![n8n](https://img.shields.io/badge/Workflow-n8n-ff6e5c?style=flat&logo=n8n)](https://n8n.io/)
-[![Node.js](https://img.shields.io/badge/Runtime-Node.js-339933?style=flat&logo=node.js)](https://nodejs.org/)
-[![Gemini](https://img.shields.io/badge/AI-Google_Gemini-8E75B2?style=flat&logo=google)](https://deepmind.google/technologies/gemini/)
-[![Telegram](https://img.shields.io/badge/Chat-Telegram-26A5E4?style=flat&logo=telegram)](https://telegram.org/)
-
 ## 📖 Overview
 
 This project is an automated AI Agent designed to keep you updated with the latest developments in Artificial Intelligence without the noise.
@@ -64,9 +59,7 @@ You are an Executive Tech Analyst. I will provide a list of article titles and d
 ### URL:
 
 ```text
-https://api.telegram.org/bot<YOUR_BOT_TOKEN>/sendMessage?chat_id=<USER_CHAT_ID>&text=Hi
+https://api.telegram.org/bot<YOUR_BOT_TOKEN>/sendMessage?chat_id=<USER_CHAT_ID>&text=Please Subscribe
 ```
-#### 1. Clone or Download
-Clone this repository to access the workflow JSON file.
-```bash
-git clone [https://github.com/yourusername/ai-news-agent.git](https://github.com/yourusername/ai-news-agent.git)
+
+** Project By: Ayush Shukla ** 
