@@ -61,6 +61,11 @@ You are an Executive Tech Analyst. I will provide a list of article titles and d
 4. Start with "🚀 Morning Briefing:"
 ```
 
+### URL:
+
+```url
+https://api.telegram.org/bot%3CYOUR_BOT_TOKEN%3E/sendMessage?chat_id=%3CUSER_CHAT_ID%3E&text=Hi
+```
 #### 1. Clone or Download
 Clone this repository to access the workflow JSON file.
 ```bash
