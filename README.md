@@ -15,7 +15,7 @@ Running on an **n8n** workflow server, the agent scrapes/fetches the latest head
 
 ## n8n Workflow Automation
 
-![IMAGE]()
+![IMAGE](https://github.com/i-ayush-7/Ai-News-Agent-n8n-automation-/blob/main/n8n%20workflow%20automation.png)
 
 ## 🛠️ Tech Stack
 
