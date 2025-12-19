@@ -19,9 +19,9 @@ Running on an **n8n** workflow server, the agent scrapes/fetches the latest head
 
 ## 🛠️ Tech Stack
 
-* **Workflow Automation:** n8n
+* **n8n Instance:**
 * **Scripting:** Node.js (used within n8n Function nodes for data parsing)
-* **LLM Engine:** [Google Gemini API](https://aistudio.google.com/api-keys)
+* **API Key:** [Google Gemini API](https://aistudio.google.com/api-keys)
 * **Notification Interface:** Telegram Bot API
 * **Data Source:** TechCrunch (RSS/Scraping)
 
