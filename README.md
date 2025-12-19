@@ -1,6 +1,4 @@
-# Ai-News-Agent-n8n-automation-
-
-# 🤖 AI News Daily Digest Agent
+# 🤖 Ai News Agent
 
 > **Automated daily AI news briefings delivered straight to Telegram.**
 
@@ -15,25 +13,39 @@ This project is an automated AI Agent designed to keep you updated with the late
 
 Running on an **n8n** workflow server, the agent scrapes/fetches the latest headlines from **TechCrunch** every morning at **7:00 AM**. It then uses **Google's Gemini AI** to analyze, filter, and summarize the articles into a digestible format before sending a briefed report to a private **Telegram** chat.
 
-## ✨ Key Features
+## n8n Workflow Automation
+
+![IMAGE]()
 
 ## 🛠️ Tech Stack
 
 * **Workflow Automation:** n8n
 * **Scripting:** Node.js (used within n8n Function nodes for data parsing)
-* **LLM Engine:** Google Gemini API
+* **LLM Engine:** [Google Gemini API](https://aistudio.google.com/api-keys)
 * **Notification Interface:** Telegram Bot API
 * **Data Source:** TechCrunch (RSS/Scraping)
 
-## 🚀 Getting Started
+### Javascript Code:
 
-### Prerequisites
+```javascript
+// 1. Get all items
+const allArticles = items;
 
-Before setting up the workflow, ensure you have the following:
+// 2. Slice the top 5
+const top5 = allArticles.slice(0, 10);
 
-1.  **n8n Instance:**
-2.  **Google Gemini API Key:** Get your free API key from [Google AI Studio](https://aistudio.google.com/api-keys).
-3.  **Telegram Bot:**
+// 3. Merge them into one single text block
+const combinedText = top5.map(article => {
+  return `Title: ${article.json.title}\nSummary: ${article.json.contentSnippet || article.json.content}`;
+}).join("\n\n---\n\n");
+
+// 4. Return as a SINGLE item for the AI
+return [{
+  json: {
+    text_to_summarize: combinedText
+  }
+}];
+```
 
 ### Installation & Setup
 
